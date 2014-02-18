@@ -20,6 +20,15 @@ If you do not already have git on your machine (Windows users mostly)
 - Windows: http://windows.github.com/
 - Mac: (you should already have Git installed, if not) http://mac.github.com
 
+### Install MongoDB
+
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+
+```sh
+brew update
+brew install mongodb
+```
+
 
 ### Download (Clone) this Repository
 
@@ -41,9 +50,12 @@ This should install all of our dependencies.
 To check that everything worked, simply launch the app!
 
 
-### Launch App
+### Launch App (Locally)
 
-`node app`
+`nodemon app`
+
+
+Point your browser to: http://localhost:3000/
 
 
 ### New Relic
@@ -67,8 +79,18 @@ Simple. Non-blocking IO.
 
 ### MVC Framework: ExpressJS
 
-Tried and tested. Good body of *answered* questions.
+Tried and tested. 
+Good body of *answered* questions: 
+http://stackoverflow.com/questions/tagged/express
+
+
+http://expressjs.com/
+
 
 ### Datastore: MongoDB
 
+On Heroku We are using MongoHQ Sandbox (512mb) for Staging  
+and Small (2GB Storage) @ $15/Month
+
+Setup: https://devcenter.heroku.com/articles/mongohq
 
