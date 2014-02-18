@@ -4,7 +4,7 @@ var port = process.env.PORT || 3000,
 	app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World!');
+  response.send('Mobile First is going to be Amazing!');
 });
 
 app.get('/test', function(request, response) {
