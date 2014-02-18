@@ -1,0 +1,36 @@
+{
+  "name": "p360",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeerSun/p360.git"
+  },
+  "description": "Simple Node, Express & MongoDB App (to revolutionise education)",
+  "author": "Team PeerSun",
+  "contributors": [ 
+    {
+      "name": "Tony Daly",
+      "email": "tony.daly@me.com"
+    }, 
+    {
+      "name": "Nelson",
+      "email": "nodecoder@gmail.com"
+    }
+
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.1.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai":"*",
+    "istanbul":"*",
+    "coveralls":"*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
